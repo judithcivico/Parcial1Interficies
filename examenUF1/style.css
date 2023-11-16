@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #ffffff;
+    height: 220px;
+}
+
+header .logo {
+    margin-top: -50px;
+    height: 100px;
+}
+header .logo img {
+    padding: 10px 10px;
+}
+
+header .logo img:hover {
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.logo img {
+    height: 200px;
+  }
+  
+  li {
+      margin-bottom: 10px;
+  }
+  nav ul a {
+      color: #0c0c0c;
+      text-decoration: none;
+      margin: 0 20px;
+      height: 20px;
+      padding: 7px;
+      border-radius: 5px;
+      font-size: 18px;
+      font-weight: bold;
+  }
+  
+  nav ul a:hover {
+      background-color: #d794fd;
+      transition: .5s;
+  }
+
+.imagenPrincipal{
+    display: flex;
+    justify-content: center;
+}
+.imagenPrincipal img{
+    height: 500px;
+}
+
+.div2{
+    display: flex;
+    padding: 30px 500px;
+    justify-content:space-around;
+    background-color: #e9c6fd;
+    height: 220px;
+    text-align: center;
+}
+
+.div2 .descarga a {
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    text-decoration: none;
+    height: 40px;
+    width: 100px;
+    color: black;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.div3 {
+    background-color: #353535;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+.imagenes3 {
+    margin: 0 80px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.componente3{
+    margin: 30px;
+    background-color:#000000;
+    border-radius: 20px;
+    padding: 30px 20px;
+    transition: .5s;
+    
+}
+.componente3:hover{
+    background-color: #8e67a5;
+    transition: .5s;
+    transform: scale(1.02);
+}
+
+footer {
+    background-color: #e9c6fd;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.conciertos {
+    align-items: center;
+    text-align: center;
+}
+.conciertoInfo {
+    margin: 40px 40px;
+}
+.conciertoInfo button{
+    background-color:#e9c6fd;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+.conciertoInfo p {
+    font-weight: bold;
+}
